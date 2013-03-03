@@ -1,0 +1,5 @@
+# blog.yml
+
+blog.home:
+  path:     /
+  defaults: { _controller: 'Gonzalo123\BlogController::homeAction' }

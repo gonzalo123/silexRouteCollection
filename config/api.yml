@@ -1,0 +1,5 @@
+# config/api.yml
+
+api.list:
+  path:     /list
+  defaults: { _controller: 'Gonzalo123\ApiController::listAction' }

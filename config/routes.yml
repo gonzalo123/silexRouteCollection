@@ -1,0 +1,17 @@
+# routes.yml
+
+home:
+  path: /
+  defaults: { _controller: 'Gonzalo123\AppController::homeAction' }
+
+hello:
+  path: /hello/{name}
+  defaults: { _controller: 'Gonzalo123\AppController::helloAction' }
+
+api:
+  prefix: /api
+  resource: api.yml
+
+blog:
+  prefix: /blog
+  resource: blog.yml

@@ -1,0 +1,12 @@
+{
+    "require":{
+        "silex/silex":"1.0.*@dev",
+        "symfony/yaml":"v2.2.0",
+        "symfony/config":"v2.2.0"
+    },
+    "autoload":{
+        "psr-0":{
+            "":"lib/"
+        }
+    }
+}
